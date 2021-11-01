@@ -1,4 +1,5 @@
 import Item from "./Item";
+import TaxItem from "./TaxItem";
 
 export default class Invoice{
     items : Item[]
@@ -13,7 +14,9 @@ export default class Invoice{
 
     getTaxes () {
         return this.items.reduce(function (total, item){
-             total += item.calculateTax();
+            if(item instanceof TaxItem){
+                total += item.calculateTax();
+            }
             return total;
         }, 0);
     }
