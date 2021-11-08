@@ -35,3 +35,13 @@ modulos de alto nivel não podem depender de modulos de mais baixo nivel
 regra de negocios não podem depender de banco de dados, frameworks e afins
 
 não saber quem esta sendo enviado por meio de contratos (interfaces)
+
+
+# Design Patterns
+
+### Command (Action, Transaction )
+
+* Encapsular uma solicitação como um objeto
+* Permitir que clientes diferentes, parametrizem comandos de forma diferente
+* Enfileirar ou fazer o registro das solicitações
+* Suportar operações que podem ser desfeitas
