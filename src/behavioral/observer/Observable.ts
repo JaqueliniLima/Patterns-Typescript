@@ -7,7 +7,7 @@ export default abstract class Observable {
         this.observers = [];
     }
 
-    register (observer: Observer) {
+    subscribe (observer: Observer) {
         this.observers.push(observer);
     }
 

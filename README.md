@@ -50,3 +50,8 @@ não saber quem esta sendo enviado por meio de contratos (interfaces)
 
 * Definir uma dependência um  para muitos entre objetos
 * Quando o objeto muda de estado, os seus dependentes são notificados e atualizados
+
+### Mediator
+
+* Derfinir um objeto que encapsula a forma como um conjunto de objetos interage
+* Promove o desacoplamento ao evitar que os objetos se refiram uns aos outros explicitamente, permitindo varias suas interações independentemente
