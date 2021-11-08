@@ -45,3 +45,8 @@ não saber quem esta sendo enviado por meio de contratos (interfaces)
 * Permitir que clientes diferentes, parametrizem comandos de forma diferente
 * Enfileirar ou fazer o registro das solicitações
 * Suportar operações que podem ser desfeitas
+
+### Observer (Publish, Subscribe)
+
+* Definir uma dependência um  para muitos entre objetos
+* Quando o objeto muda de estado, os seus dependentes são notificados e atualizados
