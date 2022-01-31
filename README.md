@@ -55,3 +55,7 @@ não saber quem esta sendo enviado por meio de contratos (interfaces)
 
 * Derfinir um objeto que encapsula a forma como um conjunto de objetos interage
 * Promove o desacoplamento ao evitar que os objetos se refiram uns aos outros explicitamente, permitindo varias suas interações independentemente
+
+### Chain of Responsibility
+
+### Decorator
